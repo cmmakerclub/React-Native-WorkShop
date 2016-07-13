@@ -18,8 +18,8 @@ class App extends Component {
   }
 
   fetchData() {
-      let netpie_auth  = '?auth=Task9JnxtDsOeLt:D0plMFJrx3igmngkar718BGGY';
-      let url = 'https://api.netpie.io/topic/HelloCMMC' + '/gearname/plug001/temp' + netpie_auth;
+      let netpie_auth  = '?auth=EAHSjdbQZMtDlJD:ZdsVsuu7EkBPrlnmJwO08Rjb9';
+      let url = 'https://api.netpie.io/topic/NETPIE' + '/gearname/plug001/temp' + netpie_auth;
 
       fetch(url)
       .then((response) => response.json())
