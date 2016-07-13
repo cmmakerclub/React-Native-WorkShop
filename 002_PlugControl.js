@@ -18,7 +18,7 @@ class App extends Component {
 
   detectON() {
     this.setState({plugState: 'ON'});
-    fetch('https://api.netpie.io/topic/HelloCMMC/gearname/plug001?auth=EAHSjdbQZMtDlJD:ZdsVsuu7EkBPrlnmJwO08Rjb9', {
+    fetch('https://api.netpie.io/topic/NETPIE/gearname/plug001?auth=EAHSjdbQZMtDlJD:ZdsVsuu7EkBPrlnmJwO08Rjb9', {
         method: 'PUT',
         body: 'ON'
     });
@@ -26,7 +26,7 @@ class App extends Component {
 
   detectOFF() {
     this.setState({plugState: 'OFF'});
-    fetch('https://api.netpie.io/topic/HelloCMMC/gearname/plug001?auth=EAHSjdbQZMtDlJD:ZdsVsuu7EkBPrlnmJwO08Rjb9', {
+    fetch('https://api.netpie.io/topic/NETPIE/gearname/plug001?auth=EAHSjdbQZMtDlJD:ZdsVsuu7EkBPrlnmJwO08Rjb9', {
         method: 'PUT',
         body: 'OFF'
     });
