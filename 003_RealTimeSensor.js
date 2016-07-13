@@ -19,7 +19,7 @@ class App extends Component {
 
   fetchData() {
       let netpie_auth  = '?auth=EAHSjdbQZMtDlJD:ZdsVsuu7EkBPrlnmJwO08Rjb9';
-      let url = 'https://api.netpie.io/topic/NETPIE' + '/gearname/plug001/temp' + netpie_auth;
+      let url = 'https://api.netpie.io/topic/HelloNETPIE' + '/gearname/plug001/temp' + netpie_auth;
 
       fetch(url)
       .then((response) => response.json())
